@@ -26,6 +26,86 @@ img{
     width: 380px;
 }
 
+@media (min-width: 1000px){
+    html{
+        font-size: 30px;
+    }
+    .sixth{
+        display: flex;
+        flex-direction:row;
+    }
+
+    .main{
+        height: auto;
+        width: 1250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .third {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fourth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fifth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sixth, h2 {
+        align-items: center;
+    }
+
+    .pic-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        padding-bottom: 10px;
+    }
+    .pic-2{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+}
+
 a{
     color: inherit;
     text-decoration: none;
